@@ -9,9 +9,10 @@ public class NumeroParOuImpar {
         numero = in.nextInt();
         in.nextLine();
         if(numero%2==0)
-            System.out.println("O n\u00FAmero \u00E9 par");
+            System.out.println("O número é par");
         else
-            System.out.println("O n\u00FAmero \u00E9 \u00EDmpar");
+            System.out.println("O número é impar");
     }
 
 }
+
