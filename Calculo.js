@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculo {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double num1, num2, result;
-        char operator;
+        char operador;
         
         System.out.println("Digite o primeiro número:");
         num1 = scanner.nextDouble();
@@ -14,9 +14,9 @@ public class Calculator {
         num2 = scanner.nextDouble();
         
         System.out.println("Digite o operador (+, -, *, /):");
-        operator = scanner.next().charAt(0);
+        operador = scanner.next().charAt(0);
         
-        switch(operator) {
+        switch(operador) {
             case '+':
                 result = num1 + num2;
                 break;
